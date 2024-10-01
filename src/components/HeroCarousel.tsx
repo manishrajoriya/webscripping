@@ -31,10 +31,18 @@ function HeroCarousel() {
                  width={484}
                  height={484}
                  key={img.alt}
-                 className='object-contain'
+                 className='object-contain '
                />
             ))}
     </Carousel>
+
+    <Image
+    src='/assets/icons/hand-drawn-arrow.svg'
+    alt='arrow'
+    width={175}
+    height={175}
+    className='absolute max-xl:hidden left-[15%] z-0 bottom-0'
+    />
     </div>
   )
 }
